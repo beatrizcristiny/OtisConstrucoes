@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1preto: #00000f ;
+    --cor2branco: #fbffff;
+    --cor3azulmarinho: #002a54 ;
+    --cor4azulceu: #8aa8ff ;
+    --cor5vermelho: #ff4740 ;
+}
+
+body{
+    background-color: var(--cor3branco);
+    padding: 10px 20px 10px 20px;
+}
