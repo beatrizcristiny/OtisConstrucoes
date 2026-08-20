@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root{
@@ -8,10 +9,160 @@
     --cor2branco: #fbffff;
     --cor3azulmarinho: #002a54 ;
     --cor4azulceu: #8aa8ff ;
-    --cor5vermelho: #ff4740 ;
+    --cor5vermelho: #a71914 ;
 }
 
 body{
     background-color: var(--cor3branco);
-    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbffff;
+    max-width: 1120px;
+    width: 100%;
+    
 }
+
+header{
+    width: 100%;
+    height: 470px;
+    background-image: linear-gradient(rgba(0, 0, 15, 0.39), rgb(0, 0, 15)), url("fundopt2.jpg");
+    background-size:cover ;
+    background-position: center;
+}
+     header h2{
+       margin-left: 340px;
+       font-size: 30px;
+       margin-top: 20px;
+    }
+    hr{
+        width: 510px;
+        margin-left: 310px;
+        margin-top: 10px;
+        height: 4px;
+        border: none;
+        background-color: #db0700;
+    }
+    header h1{
+        margin-left: 390px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    header p{
+        margin-left: 290px;
+        margin-top: 10px;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    img.otis{
+        width: 250px;
+        margin-top:-15px ;
+        margin-left: 30px;
+
+
+    }
+
+    .ver{
+        margin-left: 475px;
+        color: #fbffff;
+        text-decoration: none;
+        width: 20px;
+        background-color: #940000;
+        padding: 10px 20px 10px 20px;
+        border-radius: 30px;
+        
+    }
+    nav{
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        top: 25px;
+        left: 350px;
+    }
+    nav a{
+        color: #fbffff;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    main{
+    }
+
+    .pai{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: -100px;
+    }
+
+    .card-1{
+    background-color: #bd0600;
+    
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    width: 350px;
+    min-height: 150px;
+    align-self: stretch;
+    overflow: visible;
+    word-wrap: break-word;
+    }
+    .card-2{
+    background-color: #002a54;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    min-height: 150px;
+    align-self: stretch;
+    overflow: visible;
+    word-wrap: break-word;
+    }
+    .card-3{
+    background-color: #09267e;
+    
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    min-height: 150px;
+    align-self: stretch;
+    overflow: visible;
+    word-wrap: break-word;
+    }
+
+    .card-1 p{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .card-1 h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+     .card-2 p{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .card-2 h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+     .card-3 p{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .card-3 h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .obras{
+        border-radius: 50%;
+        width: 300px;
+        margin: 50px 0px 0px 100px;
+    }
+
+    .sobres{
+        color: #00000f;
+        
+    }
+    .sobres h2{
+        margin: 0px 0px 0px 0px;
+    }
