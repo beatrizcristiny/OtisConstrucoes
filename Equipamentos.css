@@ -24,7 +24,7 @@ body{
 
 header{
     width: 100%;
-    height: 470px;
+    height: 270px;
     background-image: linear-gradient(rgba(0, 0, 15, 0.39), rgb(0, 0, 15)), url("fundopt2.jpg");
     background-size:cover ;
     background-position: center;
