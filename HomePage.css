@@ -210,37 +210,27 @@ header{
 
     footer{
         background-color: #002a54;
-        padding: 5px 5px 20px 5px;
+        padding: 15px 5px 20px 5px;
         
     }
 
     footer h2{
-       position: relative;
-       top: 40px;
        margin-left: 10px;
+       padding: 20px 10px 20px 10px;
     }
 
     footer a{
         text-decoration: none;
         color: #fbffff;
-        display: block;
-        margin: 5px 0;
-        margin-left: 400px;
+       margin: 10px 0px 10px 10px;
+        
     }
 
-    .certo{
-        
-        font-size: 14px;
-        color: #6b8daa;
-        position: relative;
-        top: 50px;
-        margin-left: 10px;
-    }
 
     footer hr{
-        background-color: #375470;
+        background-color: #95a3b0;
         height: 2px;
-        width: 1120px;
+        width: 1120px;  
         margin-left: -5px;
         
     }
@@ -251,10 +241,9 @@ header{
     }
     footer p{
         font-size: 14px;
-        color: #5e86a8;
-        position: relative;
-        top: 10px;
+        color: #ebf5ff;
         margin-left: 10px;
+        margin-top: 15px;
     }
     @media (min-width: 1400px) {
         
