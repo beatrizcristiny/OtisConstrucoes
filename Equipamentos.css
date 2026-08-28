@@ -30,18 +30,11 @@ header{
     background-position: center;
 }
      header h2{
-       margin-left: 400px;
-       font-size: 30px;
+       margin-left: 365px;
+       font-size: 35px;
        margin-top: 0px;
     }
-    hr{
-        width: 510px;
-        margin-left: 310px;
-        margin-top: 10px;
-        height: 4px;
-        border: none;
-        background-color: #db0700;
-    }
+   
     header h1{
         margin-left: 390px;
         margin-top: 20px;
@@ -70,8 +63,96 @@ header{
         margin-left: 40px;
         width: 100px;
         color: white;
-        box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.169);
+        box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.445);
+        cursor: pointer;
     }
+
+    .filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.filtrosb {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #00000f;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filtros span {
+    color: #00000f;
+}
+
+.equipamentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.card-equipamento{
+    width: 300px;
+    height: 420px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.267);
+}
+
+.card-equipamento img{
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.card-equipamento h2{
+    color: rgb(3, 33, 68);
+    padding: 15px 10px 5px 10px;
+    font-size: 20px;
+}
+.card-equipamento h3{
+    color: rgb(255, 50, 50);
+    font-size: 15px;
+    padding: 0px 10px 10px 10px;
+}
+.card-equipamento p{
+    color: rgb(65, 65, 65);
+     font-size: 14px;
+     text-align: justify;
+     margin: 0px 10px 15px 10px;
+}
+.card-equipamento h4{
+    color: rgb(16, 129, 44);
+    margin: 10px 10px 20px 10px;
+    background-color: #8FEFB4;
+    font-size: 13px;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 3.5px;
+    
+}
+.details{
+    text-decoration: none;
+    background-color: #fd4a44;
+    color: white;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.144);
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 15px;
+}
     img.otis{
         width: 250px;
         margin-top:-15px ;
@@ -80,16 +161,7 @@ header{
 
     }
 
-    .ver{
-        margin-left: 475px;
-        color: #fbffff;
-        text-decoration: none;
-        width: 20px;
-        background-color: #940000;
-        padding: 10px 20px 10px 20px;
-        border-radius: 30px;
-        
-    }
+ 
     
   nav{
     display: flex;
@@ -108,3 +180,49 @@ header{
         font-size: 17px;
         margin: auto;
     }
+    footer{
+        background-color: #002a54;
+        padding: 15px 5px 20px 5px;
+        margin-top: 70px;
+        
+    }
+
+    footer h2{
+       margin-left: 10px;
+       padding: 20px 10px 20px 10px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #fbffff;
+       margin: 10px 0px 10px 10px;
+        
+    }
+
+
+    footer hr{
+        background-color: #95a3b0;
+        height: 2px;
+        width: 1120px;  
+        margin-left: -5px;
+        
+    }
+
+    footer h3{
+        margin-left: 400px;
+        color: #da4444;
+    }
+    footer p{
+        font-size: 14px;
+        color: #ebf5ff;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    @media (min-width: 1400px) {
+        
+    nav {
+        left: 720px;
+        gap: 18px;
+    }
+
+}
