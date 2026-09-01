@@ -59,42 +59,104 @@ header{
     }
 
     article{
-        background-color: #f0f0f0;
+        background-color: #E9EFF6;
         width: 1120px;
-        height: 200px;
+        height: 240px;
         color: black;
         padding: 20px;
         line-height: 50px;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.228);
 
     }
     article h3{
+        margin: 20px 0px 5px 70px;
+        font-size: 15px;
+        color: #FF5E5E;
+    }
+    article h1{
+        margin: 0px 0px 18px 40px;
+        font-size: 45px;
+        color: #010714;
+    }
+    article p{
         
+        line-height: 1.5;
+        margin: 5px 600px 10px 40px;
+        font-size: 15px;
+        color: grey;
     }
     
+    main{
+        color: black;
+    }
+     .h3{
+        margin: 90px 0px 15px 110px;
+        font-size: 13px;
+        color: #FF5E5E;
+    }
+    main h2{
+        margin: 0px 0px 18px 65px;
+        font-size: 35px;
+        color: #010714;
+        font-weight: 600;
+    }
+    .p{
+        line-height: 1.2;
+        margin: -65px 0px 10px 750px;
+        font-size: 14px;
+        color: grey;
+    }
 
     .categoria-card{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
+        margin-bottom: 90px;
+        margin-top: 50px;
 
     }
     .card-categoria{
     width: 300px;
-    height: 420px;
-    border-radius: 10px;
+    height: 330px;
+    border: 1.3px solid rgb(183, 183, 183);
     background-color: white;
-    padding: 15px;
-    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.267);
-    margin-bottom: 40px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.018);
+    margin-bottom: 0px;
+   
 }
 
     .card-categoria img{
-    width: 270px;
+    width: 300px;
     height: 180px;
     object-fit: cover;
-    border-radius: 10px;
     display: block;
+}
+
+.card-categoria h3{
+    padding: 20px 0px 12px 45px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-categoria p{
+    font-size: 12px;
+    padding: 0px 0px 15px 25px;
+    color: rgb(105, 104, 104);
+} 
+.card-categoria a{
+    text-decoration: none;
+    background-color: #F53535;
+    color: white;
+    padding: 6px 0px;
+    display: inline-block;
+    margin-left: 25px;
+    width: 180px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.21);
+    font-weight: 500;
+    
 }
 
 
