@@ -60,6 +60,8 @@ header{
 
    section{
     padding: 60px;
+    
+
    }
     section h3{
         color: #FF5E5E;
@@ -85,6 +87,7 @@ header{
         line-height: 1.6;
         text-align: justify;
         margin-bottom: 15px;
+        margin-right: 600px;
     }
 
     section a{
@@ -93,11 +96,46 @@ header{
         color: white;
         padding: 10px;
         text-decoration: none;
-        margin: 0px 0px 60px 15px;
+        margin: 0px 06x 60px 15px;
         border-radius: 8px;
         width: 250px;
         text-align: center;
 
+    }
+
+    .imagem-um{
+       float: right;
+       width: 400px;
+       height: 380px;
+       object-fit: cover;
+       margin-right: 50px;
+       
+    }
+
+    .OT{
+        background-color: #da4444;
+        width: 100px;
+        height: 40px;
+        color: white;
+        margin-left: 500px;
+        position: absolute;
+        bottom: 40px;
+        padding: 10px;
+    }
+    .OT h1{
+        font-size: 14px;
+    }
+    .OT hr{
+        border: none;
+        height: 50px;
+        border-left: 2px solid rgb(255, 255, 255);
+        width: 0;
+        margin: 0 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .OT p{
+        font-size: 10px;
     }
     
 
