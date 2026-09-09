@@ -143,6 +143,63 @@ header{
         
     }
     
+    main{
+        background-color: #E9EFF6;
+        padding: 45px 20px 20px 50px;
+    }
+    .h3{
+        color: #FF5E5E;
+        font-size: 14px;
+        margin-bottom: 12px;
+        margin-left: 80px;
+        font-weight: 500;
+    }
+    main h2{
+        font-size: 25px;
+        color: black;
+        margin-left: 40px;
+       
+    }
+    .vermelho{
+       font-size: 25px;
+        color: #FF1010; 
+        margin-left: 40px;
+       
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .card-main{
+    width: 220px;
+    height: 180px;
+    border: 1px solid rgb(183, 183, 183);
+    background-color: #E9EFF6;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.018);
+    margin-bottom: 0px;
+    padding: 20px;
+   
+    }
+    .p{
+        line-height: 1.5;
+        margin: -50px 60px 10px 700px;
+        font-size: 12px;
+        color: grey;
+    }
+    .card-main h4{
+        color: #FF1010; 
+        font-size: 14px;
+    }
+    .card-main p{
+        font-size: 13px;
+        color: rgb(105, 105, 105)
+
+    }
+
+
 
 
     
