@@ -67,7 +67,7 @@ header{
         color: #FF5E5E;
         font-size: 15px;
         margin-bottom: 15px;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     section h2{
         font-size: 45px;
@@ -146,13 +146,18 @@ header{
     main{
         background-color: #E9EFF6;
         padding: 45px 20px 20px 50px;
+        margin-top: 80px;
+       
     }
     .h3{
         color: #FF5E5E;
         font-size: 14px;
         margin-bottom: 12px;
-        margin-left: 80px;
-        font-weight: 500;
+        margin-left: 30px;
+        font-weight: 600;
+    }
+    .span{
+        padding: 15px
     }
     main h2{
         font-size: 25px;
@@ -171,12 +176,14 @@ header{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 40px;
         
     }
     .card-main{
-    width: 220px;
+    width: 240px;
     height: 180px;
-    border: 1px solid rgb(183, 183, 183);
+    border: 1px solid rgb(213, 213, 213);
     background-color: #E9EFF6;
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.018);
     margin-bottom: 0px;
@@ -194,11 +201,43 @@ header{
         font-size: 14px;
     }
     .card-main p{
-        font-size: 13px;
-        color: rgb(105, 105, 105)
+        font-size: 12px;
+        color: rgb(105, 105, 105);
+        margin: 0px 0px 5px 8px;
+        text-align: justify;
 
     }
+    .card-main h3{
+        margin: 15px 0px 5px 8px;
+    }
 
+    .section-fim h3{
+        color: #FF5E5E;
+        font-size: 14px;
+        margin-bottom: 12px;
+        margin-left: 30px;
+        font-weight: 600;
+    }
+    .span{
+        padding: 15px
+    }
+    .section-fim h2{
+        font-size: 35px;
+        color: black;
+        margin-left: 40px;
+        margin-right: 500px;
+        margin-bottom: 15px;
+       
+    }
+    .section-fim p{
+        font-size: 13px;
+        color: rgb(105, 105, 105);
+        margin: 0px 600px 35px 40px;
+        text-align: justify;
+        
+
+    }
+    
 
 
 
@@ -214,6 +253,7 @@ header{
     footer h2{
        margin-left: 10px;
        padding: 20px 10px 20px 10px;
+       color: #ffffff;
     }
 
     footer a{
