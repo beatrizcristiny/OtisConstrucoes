@@ -64,7 +64,7 @@ header{
 
    }
     section h3{
-        color: #FF5E5E;
+        color: #F53535;
         font-size: 15px;
         margin-bottom: 15px;
         margin-left: 0px;
@@ -72,9 +72,12 @@ header{
     section h2{
         font-size: 45px;
         line-height: 1.1;
+        color: #172131;
     }
-    .vermelho{
-        color: #FF5E5E;
+    .vermelhoh2{
+        color: #F53535;
+        font-size: 45px;
+        
     }
     .solucoes{
         font-size: 22px;
@@ -92,7 +95,7 @@ header{
 
     section a{
         display: inline-block;
-        background-color: #FF5E5E;
+        background-color: #F53535;
         color: white;
         padding: 10px;
         text-decoration: none;
@@ -113,35 +116,39 @@ header{
     }
 
     .OT{
-        background-color: #da4444;
-        width: 100px;
-        height: 40px;
-        color: white;
-        margin-left: 500px;
-        position: absolute;
-        bottom: 40px;
-        padding: 10px;
-    }
-    .OT h1{
-        font-size: 14px;
-    }
-    .OT hr{
-        border: none;
-        height: 30px;
-        border-left: 2px solid rgb(255, 255, 255);
-        margin-top: -20px;
-        margin-left: 30px;
+    background-color: #F53535;
+    width: 110px;
+    height: 50px;
+    color: white;
+    margin-left: 500px;
+    position: absolute;
+    top: 490px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
 
-        
-    }
-    .OT p{
-        margin-left: 40px;
-        margin-top: -30px;
-        color: white;
-        font-size: 8px;
-        
-        
-    }
+.OT h1{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.OT hr{
+    border: none;
+    border-left: 1px solid white;
+    height: 30px;
+    margin: 0 7px;
+}
+
+.OT p{
+    margin: 0;
+    color: white;
+    font-size: 7.2px;
+    line-height: 1.2;
+   
+  
+}
     
     main{
         background-color: #E9EFF6;
@@ -161,7 +168,7 @@ header{
     }
     main h2{
         font-size: 25px;
-        color: black;
+        color: #172131;
         margin-left: 40px;
        
     }
@@ -221,6 +228,10 @@ header{
     .span{
         padding: 15px
     }
+    .section-fim{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
     .section-fim h2{
         font-size: 35px;
         color: black;
@@ -236,6 +247,36 @@ header{
         text-align: justify;
         
 
+    }
+
+    .lista{
+        margin-left: 600px;
+        margin-top: -190px;
+        padding: 0;
+        list-style: none;
+        width: 300px;
+    }
+
+    .lista li{
+        border-top: 1px solid #d0d0d0;
+        padding: 10px 0px 10px 35px;
+        font-size: 12px;
+        color: black;
+        position: relative;
+    }
+
+    .lista li:last-child{
+        border-bottom: 1px solid #d0d0d0;
+    }
+    .lista li::before{
+        content: "✓";
+        position: absolute;
+        left: 5px;
+        top: 8px;background-color: #dff3ff;
+        color: #3498db;
+        width: 20px;
+        text-align: center;
+        line-height: 20px;
     }
     
 
