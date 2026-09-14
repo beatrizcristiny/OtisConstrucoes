@@ -173,12 +173,49 @@ header{
     box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.267);
 }
 
+.mensagem p{
+    color: grey;
+    margin-left: 180px;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.mapa{
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+    margin-top: -600px;
+    background-color: #0F2038;
+    padding-left: 60px;
+    color: white;
+    height: 500px;
+    
+}
+.mapa img{
+    width: 300px;
+    height: 150px;
+    
+}
+
+.mapa h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.mapa h2{
+    color: white;
+    font-size: 20px;
+    
+}
     
 
 
     footer{
         background-color: #002a54;
         padding: 15px 5px 20px 5px;
+        margin-top: 300px;
         
     }
 
