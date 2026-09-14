@@ -108,6 +108,7 @@ header{
     }
     .mensagem{
         margin: 30px 0px 30px 0px;
+        width: 40%;
     }
     .mensagem h3{
         font-size: 15px;
@@ -119,6 +120,8 @@ header{
     .linha{
     display: flex;
     gap: 15px;
+    width: 450px;
+    
 }
 
 .linha div{
@@ -127,11 +130,48 @@ header{
 
 .linha input{
     width: 100%;
+    height: 35px;
+    background-color: #EBF5FF;
+    border-radius: 5px;
+    border: 0.3px solid #BCBCBC;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.linha h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+.linha-maior{
+    
+    width: 450px;
+}
+.linha-maior textarea{
+    width: 100%;
+    height: 150px;
+    background-color: #EBF5FF;
+    border-radius: 5px;
+    border: 0.3px solid #BCBCBC;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 10px;   
+}
+.linha-maior textarea::placeholder {
+    font-weight: lighter;  
+    color: rgba(128, 128, 128, 0.443);    
 }
 
-   
-
-
+.mensagem button{
+    background-color: #F53535;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.267);
+}
 
     
 
