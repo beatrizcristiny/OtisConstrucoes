@@ -63,6 +63,7 @@ header{
         background-color: #EBF5FF;
         border-bottom: 1px solid rgba(128, 128, 128, 0.089);
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.158);
+        margin-bottom: 10px;
     }
     .inicio h3{
         color: #F53535;
@@ -150,7 +151,7 @@ header{
 }
 .linha-maior textarea{
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: #EBF5FF;
     border-radius: 5px;
     border: 0.3px solid #BCBCBC;
@@ -184,16 +185,18 @@ header{
     float: right;
     width: 40%;
     margin-right: 50px;
-    margin-top: -600px;
+    margin-top: -580px;
     background-color: #0F2038;
     padding-left: 45px;
     color: white;
-    height: 500px;
+    height: 535px;
+    width: 380px;
     
 }
 .mapa img{
     width: 300px;
-    height: 150px;
+    height: 145px;
+    margin-top: 15px;
     
 }
 
@@ -202,8 +205,12 @@ header{
     margin-top: 20px;
     font-size: 13px;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 5px;
     margin-bottom: 10px;
+}
+.mapa span{
+    color: red;
+    font-weight: 700;
 }
 .mapa h2{
     color: white;
@@ -215,7 +222,7 @@ header{
 }
 .mapa p{
     padding: 5px 0px 10px 35px;
-    font-size: 12px;
+    font-size: 11px;
     color: rgb(255, 255, 255);
     position: relative;
 }
@@ -227,25 +234,32 @@ header{
 
     .mapa-elementos h4{
         border-top: 1px solid #d0d0d0;
-        padding: 10px 0px 5px 35px;
+        padding: 10px 0px 0px 35px;
         font-size: 12px;
-        color: rgb(255, 255, 255);
+        color: #8795AA;
         position: relative;
+        font-weight: normal;
     }
 
     .mapa-elementos p:last-child{
-        border-bottom: 1px solid #d0d0d0;
+        border-bottom: 1px solid #BCBCBC;
         
     }
     .mapa-elementos h4::before{
-        content: "✓";
+        content: "📞";
         position: absolute;
         left: 5px;
-        top: 8px;background-color: #dff3ff;
+        top: 10px;background-color: #2F3D52;
         color: #3498db;
         width: 20px;
         text-align: center;
         line-height: 20px;
+    }
+    .mapa h5{
+        margin-top: -30px; 
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: 10px;
     }
     
 
@@ -253,7 +267,7 @@ header{
     footer{
         background-color: #002a54;
         padding: 15px 5px 20px 5px;
-        margin-top: 300px;
+        margin-top: 0px;
         
     }
 
