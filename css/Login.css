@@ -57,11 +57,28 @@ header{
         font-size: 17px;
         margin: auto;
     }
-
-    .card-login{
-        
+    main{
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
+    .card-login{
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        margin-left: 350px;
+        padding: 30px;
+
+    }
+    .card-login img{
+        width: 200px;
+        height: 100px;
+        padding: 0px;
+        
+        
+    }
     
 
 
