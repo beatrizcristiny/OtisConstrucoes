@@ -14,7 +14,7 @@
 
         <img class="otis" src="../img/logootis1.png" alt="Logo Otis Construções">
 
-         <nav>
+          <nav>
             <a href="../html/HomePage.html">Início</a>
             <a href="../html/Equipamentos.html">Equipamentos</a>
             <a href="../html/Categorias.html">Categorias</a>
@@ -22,7 +22,6 @@
             <a href="../html/Contato.html">Contato</a>
             <a href="../html/Login.html">Entrar</a>
         </nav>
-
     </header>
 
 
@@ -75,9 +74,24 @@
                 
 
 
-                <a class="solicitar" href="contato.html">
-                    Solicitar Equipamento
-                </a>
+                <button class="solicitar" onclick="abrirFormulario()">Solicitar Equipamento</button>
+
+                <div id="formularioSolicitacao" class="formulario-container">
+                    <div class="formulario-solicitacao">
+                        <input type="text" placeholder="Nome">
+
+                        <input type="date" placeholder="Data de retirada">
+
+                         <input type="date" placeholder="Data de devolução">
+
+                         <input type="text" placeholder="Finalidade da utilização">
+
+                          <textarea placeholder="Observações"></textarea>
+                          <button class="enviar-solicitacao" onclick="enviarSolicitacao()">
+                           Enviar solicitação
+                          </button>
+                    </div>
+                </div>
 
                 <a class="voltar" href="Equipamentos.html">
                     Voltar para equipamentos
@@ -86,6 +100,16 @@
             </div>
 
         </div>
+        <script>
+            function abrirFormulario(){
+            document.getElementById("formularioSolicitacao").style.display = "block";
+    }
+
+              function enviarSolicitacao(){
+              document.getElementById("formularioSolicitacao").style.display = "none";
+              alert("Solicitação enviada com sucesso!");
+    }
+</script>
 
     </main>
 
