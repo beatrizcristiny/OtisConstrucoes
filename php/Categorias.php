@@ -21,11 +21,11 @@ $resultado = mysqli_query($conexao, $sql);
 
        <nav>
             <a href="../html/HomePage.html">Início</a>
-            <a href="../html/Equipamentos.html">Equipamentos</a>
-            <a href="../html/Categorias.html">Categorias</a>
+            <a href="../php/Equipamentos.php">Equipamentos</a>
+            <a href="../php/Categorias.php">Categorias</a>
             <a href="../html/SobreNos.html">Sobre Nós</a>
             <a href="../html/Contato.html">Contato</a>
-            <a href="../html/Login.html">Entrar</a>
+            <a href="../php/Login.php">Entrar</a>
         </nav>
 
     </header>

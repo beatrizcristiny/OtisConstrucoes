@@ -163,6 +163,13 @@ header{
     color: #ff4d52;
     padding: 5px;
 }
+.mensagem-erro {
+    color: #ff4d52;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
     
 
 

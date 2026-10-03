@@ -11,10 +11,9 @@ if (!$conexao) {
 
 mysqli_set_charset($conexao, "utf8mb4");
 
-echo "Banco conectado com sucesso!";
-
-?>
-
 
 
 ?>
+
+
+

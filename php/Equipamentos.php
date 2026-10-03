@@ -21,11 +21,11 @@ $resultado = mysqli_query($conexao, $sql);
 
         <nav>
             <a href="../html/HomePage.html">Início</a>
-            <a href="../html/Equipamentos.html">Equipamentos</a>
-            <a href="../html/Categorias.html">Categorias</a>
+            <a href="../php/Equipamentos.php">Equipamentos</a>
+            <a href="../php/Categorias.php">Categorias</a>
             <a href="../html/SobreNos.html">Sobre Nós</a>
             <a href="../html/Contato.html">Contato</a>
-            <a href="../html/Login.html">Entrar</a>
+            <a href="../php/Login.php">Entrar</a>
         </nav>
 
         <h2>Nossos Equipamentos</h2>
@@ -92,9 +92,26 @@ $resultado = mysqli_query($conexao, $sql);
 
         <p><?php echo $equipamento['descricao']; ?></p>
 
-        <h4><?php echo $equipamento['status_q']; ?></h4>
+        <?php
+        if ($equipamento['status_q'] == 'EM_MANUTENCAO') {
+            $classe_status = 'manutencao';
+            $texto_status = 'Em manutenção';
+        } elseif ($equipamento['status_q'] == 'INDISPONIVEL') {
+            $classe_status = 'indisponivel';
+            $texto_status = 'Indisponível';
+        } else {
+            $classe_status = '';
+            $texto_status = 'Disponível';
+        }
+        ?>
 
-        <a class="details" href="../html/VerDetalhes.html">Ver detalhes</a>
+        <h4 class="<?php echo $classe_status; ?>">
+            <?php echo $texto_status; ?>
+        </h4>
+
+        <a class="details" href="VerDetalhes.php?id=<?php echo $equipamento['id_equipamento']; ?>">
+    Ver detalhes
+</a>
 
     </div>
 
